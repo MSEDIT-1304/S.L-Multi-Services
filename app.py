@@ -10,5 +10,9 @@ def services():
 def contact():
     return render_template("contact.html")
 
+@app.route("/regions")
+def regions():
+    return render_template("regions.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
