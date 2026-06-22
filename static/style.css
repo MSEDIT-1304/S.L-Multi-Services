@@ -67,3 +67,22 @@ h2{
     color:#d4af37;
     margin-top:40px;
 }
+
+p{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+    font-size:22px;
+}
+
+h1{
+    text-align:center;
+    color:#d4af37;
+}
+
+h2{
+    text-align:center;
+    color:#d4af37;
+    margin-top:50px;
+}
