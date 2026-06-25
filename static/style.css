@@ -146,5 +146,54 @@ li{
     width:100%;
     max-width:100%;
 }
+/* ================= MOBILE ================= */
+
+@media screen and (max-width:768px){
+
+.sidebar{
+    position:relative;
+    width:100%;
+    height:auto;
+    padding-top:10px;
+}
+
+.sidebar a{
+    text-align:center;
+    padding:15px;
+    font-size:18px;
+}
+
+.content{
+    margin-left:0;
+    padding:15px;
+}
+
+.banniere{
+    width:100%;
+    height:auto;
+}
+
+.logo{
+    width:110px;
+}
+
+h1{
+    font-size:22px;
+}
+
+h2{
+    font-size:18px;
+}
+
+p{
+    font-size:16px;
+    max-width:100%;
+}
+
+.galerie img{
+    width:95%;
+    height:auto;
+}
+}
 
 
