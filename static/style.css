@@ -95,3 +95,54 @@ li{
     border:2px solid #d4af37;
     border-radius:10px;
 }
+/* ---------- Version mobile ---------- */
+
+@media screen and (max-width: 768px) {
+
+.sidebar{
+    width:100%;
+    height:auto;
+    position:relative;
+    padding-top:15px;
+}
+
+.sidebar a{
+    display:inline-block;
+    padding:12px;
+    font-size:18px;
+}
+
+.content{
+    margin-left:0;
+    padding:15px;
+}
+
+.logo{
+    width:220px;
+}
+
+.banniere{
+    width:100%;
+    max-width:100%;
+}
+
+h1{
+    font-size:38px;
+}
+
+h2{
+    font-size:28px;
+}
+
+p,
+li{
+    font-size:20px;
+    line-height:1.8;
+}
+
+.galerie img{
+    width:100%;
+    max-width:100%;
+}
+
+
