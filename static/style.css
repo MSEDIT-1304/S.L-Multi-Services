@@ -227,6 +227,42 @@ p{
     height:220px;
 
 }
+
+/* ===== Bouton devis ===== */
+
+.btn-devis{
+
+    background:#d4af37;
+
+    color:#111;
+
+    border:none;
+
+    padding:14px 32px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 6px 18px rgba(212,175,55,.35);
+
+}
+
+.btn-devis:hover{
+
+    background:#f0c94a;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 24px rgba(212,175,55,.45);
+
+}
 }
 
 
