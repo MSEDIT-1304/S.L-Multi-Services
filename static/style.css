@@ -156,6 +156,26 @@ li{
     box-shadow:0 10px 24px rgba(212,175,55,.45);
 
 }
+
+.galerie figure{
+
+    margin:0;
+
+    text-align:center;
+
+}
+
+.galerie figcaption{
+
+    margin-top:12px;
+
+    color:#d4af37;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
     
 /* ---------- Version mobile ---------- */
 
@@ -261,26 +281,6 @@ p{
 .galerie img{
 
     height:220px;
-
-}
-
-.galerie figure{
-
-    margin:0;
-
-    text-align:center;
-
-}
-
-.galerie figcaption{
-
-    margin-top:12px;
-
-    color:#d4af37;
-
-    font-size:15px;
-
-    font-weight:600;
 
 }
 }
