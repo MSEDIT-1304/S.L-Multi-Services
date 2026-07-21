@@ -42,13 +42,6 @@ body {
     margin-top:20px;
 }
 
-.logo{
-    width:140px;
-}
-
-.logo-centre{
-    margin-top:20px;
-}
 
 h1{
     text-align:center;
@@ -199,9 +192,6 @@ li{
     padding:15px;
 }
 
-.logo{
-    width:220px;
-}
 
 .banniere{
     width:100%;
@@ -251,10 +241,6 @@ li{
 .banniere{
     width:100%;
     height:auto;
-}
-
-.logo{
-    width:110px;
 }
 
 h1{
