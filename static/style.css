@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color:#3F3124;
     font-family: Arial, sans-serif;
     font-size: 13px;
     background-color:#F3E9D2;
@@ -19,7 +19,7 @@ body {
 
 .sidebar a{
     display:block;
-    color:#d4af37;
+   color:#d4af37;
     text-decoration:none;
     padding:20px;
     font-weight:bold;
@@ -27,7 +27,11 @@ body {
 }
 
 .sidebar a:hover{
-    background:#222;
+
+    background:#CBB27C;
+
+    color:#4A3826;
+
 }
 
 .content{
