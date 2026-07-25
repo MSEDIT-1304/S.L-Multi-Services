@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
 
+    <meta charset="UTF-8">
+
+    <title>{{ service.titre }} | S.L Multi Services</title>
+
+    <meta name="description"
+          content="{{ service.description }} Intervention à Rethel, Signy-l'Abbaye, La Romagne, Lalobbe, Draize, Saint-Jean-aux-Bois, Montmeillant et Chaumont-Porcien.">
+
+    <meta name="keywords"
+          content="{{ service.titre }}, Rethel, Signy-l'Abbaye, La Romagne, Lalobbe, Draize, Chaumont-Porcien, artisan, Ardennes">
+
+    <meta name="robots" content="index,follow">
+
+    <link rel="canonical" href="{{ request.url }}">
+
+</head>
+
+<body>
+
+<h1>{{ service.titre }}</h1>
+
+<p>
+S.L Multi Services intervient pour vos travaux de
+<strong>{{ service.titre.lower() }}</strong>
+à Rethel, Signy-l'Abbaye, La Romagne, Lalobbe,
+Draize, Saint-Jean-aux-Bois, Montmeillant,
+Chaumont-Porcien et les communes voisines.
+</p>
+
+<h2>Nos prestations</h2>
+
+<p>
+{{ service.description }}
+</p>
+
+<h2>Zone d'intervention</h2>
+
+<p>
+Rethel • Signy-l'Abbaye • La Romagne • Lalobbe •
+Draize • Saint-Jean-aux-Bois • Montmeillant •
+Chaumont-Porcien
+</p>
+
+<h2>Pourquoi choisir S.L Multi Services ?</h2>
+
+<ul>
+    <li>Intervention rapide</li>
+    <li>Travail soigné</li>
+    <li>Devis gratuit</li>
+    <li>Professionnalisme</li>
+</ul>
+
+<h2>Contact</h2>
+
+<p>
+Pour toute demande concernant {{ service.titre.lower() }},
+contactez S.L Multi Services via la page Contact du site.
+</p>
+
+</body>
+</html>
