@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://s-l-multi-services.onrender.com/sitemap.xml
