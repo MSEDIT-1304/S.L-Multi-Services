@@ -3,26 +3,66 @@ from flask import Flask, render_template, Response
 app = Flask(__name__)
 
 SERVICES_SEO = {
+
     "electricien": {
-        "titre": "Électricien",
-        "description": "Travaux électriques, dépannage, rénovation et mise aux normes."
+        "titre": "Électricien à Rethel",
+        "description": "Travaux d'électricité générale, dépannage, rénovation et mise aux normes.",
+        "texte": """
+S.L Multi Services réalise tous vos travaux d'électricité générale à Rethel et dans les communes voisines.
+Nous intervenons pour les dépannages électriques, les rénovations complètes, les mises aux normes,
+le remplacement de tableaux électriques, les prises, les interrupteurs, l'éclairage intérieur et extérieur,
+ainsi que les installations électriques dans les logements et petits bâtiments.
+
+Notre entreprise intervient notamment à Rethel, Signy-l'Abbaye, La Romagne, Lalobbe,
+Draize, Saint-Jean-aux-Bois, Montmeillant, Chaumont-Porcien et dans les communes environnantes.
+
+Chaque intervention est réalisée avec sérieux, dans le respect des normes en vigueur,
+avec un devis gratuit avant travaux.
+"""
     },
+
     "plombier": {
-        "titre": "Plombier",
-        "description": "Installation, dépannage et réparation en plomberie."
+        "titre": "Plombier à Rethel",
+        "description": "Installation, dépannage et réparation de plomberie.",
+        "texte": """
+S.L Multi Services intervient pour tous vos travaux de plomberie.
+Recherche de fuite, remplacement de robinetterie, réparation de canalisations,
+installation de sanitaires, remplacement de chauffe-eau et dépannage rapide.
+
+Nous intervenons à Rethel ainsi que dans les communes voisines.
+"""
     },
+
     "chauffagiste": {
-        "titre": "Chauffagiste",
-        "description": "Installation, entretien et dépannage de chauffage."
+        "titre": "Chauffagiste à Rethel",
+        "description": "Installation et entretien de chauffage.",
+        "texte": """
+Installation de radiateurs, entretien de chauffage,
+remplacement d'équipements et interventions rapides
+dans le secteur de Rethel et des Ardennes.
+"""
     },
+
     "entretien-jardin": {
-        "titre": "Entretien de jardin",
-        "description": "Entretien d'espaces verts, jardinage et petits travaux extérieurs."
+        "titre": "Entretien de jardin à Rethel",
+        "description": "Entretien de jardins et espaces verts.",
+        "texte": """
+Tonte, taille de haies, débroussaillage,
+nettoyage de terrains et entretien extérieur
+à Rethel et dans les communes voisines.
+"""
     },
+
     "pose-clotures": {
-        "titre": "Pose de clôtures",
-        "description": "Installation et réparation de clôtures."
+        "titre": "Pose de clôtures à Rethel",
+        "description": "Installation de clôtures et portillons.",
+        "texte": """
+Pose de clôtures rigides, grillages,
+portillons et réparations de clôtures
+pour particuliers.
+"""
     }
+
 }
 
 @app.route("/")
