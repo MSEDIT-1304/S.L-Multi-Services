@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, Response
 
 app = Flask(__name__)
 
@@ -45,6 +45,7 @@ def regions():
 def photos():
     return render_template("photos.html")
 
+
 @app.route("/<service>")
 def seo(service):
 
@@ -55,6 +56,16 @@ def seo(service):
         "seo.html",
         service=SERVICES_SEO[service]
     )
+
+@app.route("/sitemap.xml")
+def sitemap():
+
+    xml = render_template(
+        "sitemap.xml",
+        services=SERVICES_SEO.keys()
+    )
+
+    return Response(xml, mimetype="application/xml")
 
 if __name__ == "__main__":
     app.run(debug=True)
