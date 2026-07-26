@@ -98,7 +98,7 @@ li{
 
     width:100%;
 
-    height:220px;
+    height:260px;
 
     object-fit:cover;
 
@@ -115,7 +115,6 @@ li{
 .galerie img:hover{
 
     transform:scale(1.03);
-}
 }
 
 /* ===== Bouton devis ===== */
@@ -172,7 +171,6 @@ li{
 
     font-weight:600;
 
-}
 }
     
 /* ---------- Version mobile ---------- */
